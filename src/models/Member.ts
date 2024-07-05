@@ -2,11 +2,11 @@ import { Gender } from '@/types/Gender'
 
 export class Member {
   public name: string
-  public gender: Gender
+  public gender: string
   public spouse: Member | null
   public children: Member[]
 
-  constructor(name: string, gender: Gender) {
+  constructor(name: string, gender: string) {
     this.name = name
     this.gender = gender
     this.spouse = null

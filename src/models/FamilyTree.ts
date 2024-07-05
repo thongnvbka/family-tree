@@ -21,7 +21,7 @@ export class FamilyTree {
   public addMember(
     sourceName: string,
     targetName: string,
-    targetGender: Gender,
+    targetGender: string,
     relationship: AllowedRelationship,
   ): Member {
     let source: Member | null = null
